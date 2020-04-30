@@ -1,0 +1,39 @@
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+
+<div class="container text-center">   
+<h1>Password Generator</h1>
+
+<form action="password">
+    <label for="length">Password Length</label>
+    <select name="length" id="length">
+        <option value="6">6</option>
+        <option value="7">7</option>
+        <option value="8">8</option>
+        <option value="9">9</option>
+        <option value="10">10</option>
+        <option value="11">11</option>
+        <option value="12">12</option>
+        <option value="13" selected="selected">13</option>
+        <option value="14">14</option>
+    </select>
+    <br>
+
+    <!-- <label for="uppercase">Uppercase</label> -->
+    <input type="checkbox" name="uppercase" value="0" autocomplete="off"> Uppercase
+    <br>
+    <input type="checkbox" name="numbers" autocomplete="off"> Numbers
+    <br>
+    <input type="checkbox" name="special" autocomplete="off"> Special Characters
+    <br> <br>
+    <input type="submit" value="Generate Password" class="btn btn-primary border border-primary shadow p-3 mb-5 rounded">
+
+
+</form>
+
+<!-- <form action="about"> 
+<input type="submit" value="About">
+</form> -->
+
+</div> 
